@@ -81,22 +81,20 @@ const CourseInfo = {
   function getLearnerData(course, ag, submissions) {
     // here, we would process this data to achieve the desired result.
 let lS = LearnerSubmissions
-const id = 0;
+
 let avg = 0
 const assignment_id = 0
 
 for (i = 0; i < lS.length; i++){
-  if (lS[i].learner_id >= 0  ){
-    
-    console.log(lS[i].learner_id)
-  }continue
+  
+    let id1 =(lS[0].learner_id )
+    let id2 =( lS[3].learner_id )
+    console.log(id1, id2)
+   
 }
 
 
-if (lS[1].score + lS[2].score >= 0 ){
-    let total = lS[i].score
-    console.log(total)
-}
+
 
 
 
