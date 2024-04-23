@@ -80,22 +80,31 @@ const CourseInfo = {
   
   function getLearnerData(course, ag, submissions) {
     // here, we would process this data to achieve the desired result.
-let lS = LearnerSubmissions
-
-let avg = 0
-const assignment_id = 0
-
-for (i = 0; i < lS.length; i++){
-  
-    let id1 =(lS[0].learner_id )
-    let id2 =( lS[3].learner_id )
-    console.log(id1, id2)
-   
-}
 
 
 
+// removing assignment that does not belong by splicing the assignment from the list 
+//iterate through the objects , check the ids, if else or switch statements 
+// if the due date is correct and take off points or 10% if assignment is submitted before the due date // getting the percentage // limitless id. 
+ // create an array of objects for final results 
+let student1 = [LearnerSubmissions];
 
+console.log(student1)
+let id = 125;
+
+if (LearnerSubmissions.learner_id = id) {
+  console.log(id)}
+
+// } else if (grade >= 80) {
+//   console.log("B")
+// } else if (grade >= 70) {
+//   console.log("C")
+// } else if (grade >= 55) {
+//   console.log("D")
+// } else if (grade >= 0) {
+//   console.log("F")
+// } else {
+//   console.log("Please enter valid grade.")
 
 
 
