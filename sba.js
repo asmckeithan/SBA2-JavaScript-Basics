@@ -87,21 +87,19 @@ const CourseInfo = {
 //iterate through the objects , check the ids, if else or switch statements 
 // if the due date is correct and take off points or 10% if assignment is submitted before the due date // getting the percentage // limitless id. 
  // create an array of objects for final results 
-let student1 = [LearnerSubmissions];
-
-console.log(student1)
+ const lS = [LearnerSubmissions]
+ console.log(lS)
 let id = 125;
 
-if (LearnerSubmissions === id) {
+if (lS[0].learner_id !== id) {
   console.log(id)
-}else if (LearnerSubmissions.learner_id = id ) {
+}else {
   console.log("Register")
 }
 
-let dueDate = "2023-02-27"
-if (AssignmentGroup.assignments.due_at <= dueDate){
-  console.log(AssignmentGroup.assignments)
-}
+
+
+
 try {
 	LearnerSubmissions.learner_id > 132; 
 		console.log(`Student is not registered`)
