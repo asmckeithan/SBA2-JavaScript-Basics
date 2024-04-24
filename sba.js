@@ -108,7 +108,7 @@ try {
 } finally {
 	console.log("Please register student for upcoming class");
 }
-
+console.log(lS[0][0][0]);
 
 // } else if (grade >= 80) {
 //   console.log("B")
