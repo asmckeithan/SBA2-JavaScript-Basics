@@ -92,8 +92,25 @@ let student1 = [LearnerSubmissions];
 console.log(student1)
 let id = 125;
 
-if (LearnerSubmissions.learner_id = id) {
-  console.log(id)}
+if (LearnerSubmissions === id) {
+  console.log(id)
+}else if (LearnerSubmissions.learner_id = id ) {
+  console.log("Register")
+}
+
+let dueDate = "2023-02-27"
+if (AssignmentGroup.assignments.due_at <= dueDate){
+  console.log(AssignmentGroup.assignments)
+}
+try {
+	LearnerSubmissions.learner_id > 132; 
+		console.log(`Student is not registered`)
+} catch (err) {
+	console.log(`Error has occured `);
+} finally {
+	console.log("Please register student for upcoming class");
+}
+
 
 // } else if (grade >= 80) {
 //   console.log("B")
